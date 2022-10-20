@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <img id=logo src="img/Tico Rides.png">
+    <h1 id=titulo> Welcome to TicoRides.com</h1>
+</header>
+
+<body>
+    <link rel="stylesheet" href="css/PaginaAccesoPublico.css">
+    <a id = "login" href="PaginaAutenticacion.html">Login</a>
+    <p id="Search">Search for a ride</p>
+    <div class="cuadro">
+        <p id="from">From</p>
+        <input id=aut type="text" placeholder="Input Text">
+        <p id="to">To</p>
+        <input id=aut2 type="text" placeholder="Input Text">
+        <input id="find" type="submit" value="Find my Ride">
+    </div>
+    <p id="results">Results for Rides that matches your criteria:</p>
+    <table class="Tabla">
+        <tr>
+            <td>Name</td>
+            <td>Start</td>
+            <td>End</td>
+            <td>Actions</td>
+        </tr>
+        <tr class="odd">
+            <td>Brete</td>
+            <td>Barrio Los Angeles</td>
+            <td>Ciudad Quesada</td>
+            <td><a href="PaginaVerRide.html">View</a></td>
+        </tr>
+        <tr class="even">
+            <td>Casa</td>
+            <td>Ciudad Quesada</td>
+            <td>Los Angeles</td>
+            <td><a href="PaginaVerRide.html">View</a></td>
+        </tr>
+        <tr class="odd">
+            <td>Oficina Chepe</td>
+            <td>Ciudad Quesada</td>
+            <td>San Pedro</td>
+            <td><a href="PaginaVerRide.html">View</a></td>
+        </tr>
+    </table>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <img id="logo" src="img/Tico Rides.png" alt="logo">
+    <br></br>
+    <a id=btnDashboard href="PaginaInicial.html">Dashboard</a>
+    <a id=btnSettings href="PaginaConfiguracion.html">Settings</a>
+    <a id=btnRides href="PaginaInicial.html">Rides</a>
+    <h1>Rides</h1>
+</header>
+
+<body>
+    <link rel="stylesheet" href="css/PaginaEdicionRide.css">
+    <div class="enlaces">
+        <a id="dashboard" href="PaginaInicial.html">Dashboard</a>
+        <p id="cosito">></p>
+        <a id="rides" href="PaginaConfiguracion.html">Rides</a>
+        <p id="cosito">></p>
+        <a id="edit" href="PaginaEdicionRide.html">Edit</a>
+    </div>
+    <div class="user">
+        <p id="welcome">Welcome</p>
+        <p id="username">barroyo</p>
+        <img id="usernameLogo" src="img/NicePng_dj-silhouette-png_1053345.png" alt="">
+    </div>
+    <div class="edit">
+        <label for="RideName">Ride Name</label>
+        <br>
+        <input type="text" placeholder="Input text">
+        <br></br>
+        <label for="StartFrom">Start From</label>
+        <label id="End" for="text">End</label>
+        <br>
+        <input type="text" placeholder="Input text">
+        <input type="text" placeholder="Input text">
+        <br></br>
+        <label for="text">Description</label>
+        <br>
+        <input id="description" type="text" placeholder="Input text">
+    </div>
+    <h2 id="when">When</h2>
+    <div class="whenEdit">
+        <div class="inputs">
+            <label for="Departure">Departure</label>
+            <br>
+            <input type="text" placeholder="Input text">
+            <br>
+            <label for="EstimatedArrival">Estimated Arrival</label>
+            <br>
+            <input type="text" placeholder="Input text">
+        </div>
+        <div class="radioButtons">
+            Select Days
+            <br>
+            <div id="days">
+                <input type="checkbox" checked>
+                <label for="Monday">Monday</label>
+                <br>
+                <input type="checkbox" checked>
+                <label for="Tuesday">Tuesday</label>
+                <br>
+                <input type="checkbox" checked>
+                <label for="Wednesday">Wednesday</label>
+                <br>
+                <input type="checkbox" checked>
+                <label for="Thursday">Thursday</label>
+                <br>
+                <input type="checkbox" checked>
+                <label for="Friday">Friday</label>
+                <br>
+                <input type="checkbox">
+                <label for="Saturday">Saturday</label>
+                <br>
+                <input type="checkbox">
+                <label for="Sunday">Sunday</label>
+            </div>
+        </div>
+    </div>
+    <div class="finalbtn">
+        <a id="cancel" href="PaginaInicial.html">Cancel</a>
+        <a id="Save" href="PaginaInicialConEdit.html">Save</a>
+    </div>
+</body>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<header>
+    <img id="logo" src="img/Tico Rides.png" alt="logo">
+    <br></br>
+    <a id=btnDashboard href="PaginaAccesoPublico.html">Dashboard</a>
+    <a id=btnSettings href="PaginaAccesoPublico.html">Settings</a>
+    <a id=btnRides href="PaginaAccesoPublico.html">Rides</a>
+    <h1>Rides</h1>
+</header>
+
+<body>
+    <link rel="stylesheet" href="css/PaginaVerRide.css">
+    <div class="enlaces">
+        <a id="dashboard" href="PaginaAccesoPublico.html">Dashboard</a>
+        <p id="cosito">></p>
+        <a id="rides" href="PaginaAccesoPublico.html">Rides</a>
+        <p id="cosito">></p>
+        <a id="edit" href="PaginaAccesoPublico.html">View</a>
+    </div>
+    <div class="user">
+        <p id="welcome">Welcome</p>
+        <p id="username">barroyo</p>
+        <img id="usernameLogo" src="img/NicePng_dj-silhouette-png_1053345.png" alt="">
+    </div>
+    <div class="edit">
+        <label for="RideName">Ride Name</label>
+        <br>
+        <input type="text" placeholder="Brete"disabled>
+        <br></br>
+        <label for="StartFrom">Start From</label>
+        <label id="End" for="text">End</label>
+        <br>
+        <input type="text" placeholder="Barrio Los Angeles"disabled>
+        <input type="text" placeholder="Ciudad Quesada"disabled>
+        <br></br>
+        <label for="text">Description</label>
+        <br>
+        <input id="description" type="text" placeholder="Input text"disabled>
+    </div>
+    <h2 id="when">When</h2>
+    <div class="whenEdit">
+        <div class="inputs">
+            <label for="Departure">Departure</label>
+            <br>
+            <input type="text" placeholder="Input text" disabled>
+            <br>
+            <label for="EstimatedArrival">Estimated Arrival</label>
+            <br>
+            <input type="text" placeholder="Input text" disabled>
+        </div>
+        <div class="radioButtons">
+            Select Days
+            <br>
+            <div id="days">
+                <input type="checkbox" checked disabled>
+                <label for="Monday">Monday</label>
+                <br>
+                <input type="checkbox" checked disabled>
+                <label for="Tuesday">Tuesday</label>
+                <br>
+                <input type="checkbox" checked disabled>
+                <label for="Wednesday">Wednesday</label>
+                <br>
+                <input type="checkbox"checked disabled >
+                <label for="Thursday">Thursday</label>
+                <br>
+                <input type="checkbox"checked disabled>
+                <label for="Friday">Friday</label>
+                <br>
+                <input type="checkbox" disabled>
+                <label for="Saturday">Saturday</label>
+                <br>
+                <input type="checkbox" disabled>
+                <label for="Sunday">Sunday</label>
+            </div>
+        </div>
+    </div>
+    <div class="finalbtn">
+        <a id="cancel" href="PaginaAccesoPublico.html">Cancel</a>
+        <a id="Save" href="PaginaAccesoPublico.html">Save</a>
+    </div>
+</body>
