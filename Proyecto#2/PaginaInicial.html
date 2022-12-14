@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/PaginaInicial.css">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <header>
+        <img id="logo" src="img/TicoRides.png" alt="logo">
+        <br></br>
+        <a id=btnDashboard href="PaginaInicial.html">Dashboard</a>
+        <a id=btnSettings href="PaginaConfiguracion.html">Settings</a>
+        <a id=btnRides href="PaginaInicial.html">Rides</a>
+        <h1>Dashboard</h1>
+    </header>
+    <div class="contenedor">
+        <div id="enlaces">
+            <a id="dashboard" href="PaginaInicial.html">Dashboard</a>
+            <p id="cosito">></p>
+        </div>
+        <div class="user">
+            <p id="welcome">Welcome</p>
+            <label id="txtUsername">Noname</label>
+            <img id="usernameLogo" src="img/NicePng_dj-silhouette-png_1053345.png" alt="">
+        </div>
+        <p id="myRides">My Rides</p>
+        <div class="cuadro">
+            <p id=texto>Your current list of Rides</p>
+            <a id="btnAdd" href="PaginaCreacionRide.html">+</a>
+            <table id="ridesTable" class="Tabla">
+                <tr>
+                    <td>Name</td>
+                    <td>Start</td>
+                    <td>End</td>
+                    <td>Actions</td>
+                </tr>
+            </table>
+            <a id="btnAdd2" href="PaginaCreacionRide.html">+</a>
+        </div>
+        <input type="button" id="btnCerrarSesion" value="Cerrar Sesion">
+    </div>
+</body>
+<script src="js/Inicial.js" type="text/javascript"></script>
+</html>
