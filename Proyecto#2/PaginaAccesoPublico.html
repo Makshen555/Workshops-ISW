@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="css/PaginaAccesoPublico.css">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+
+<body>
+    <div class="contenedor">
+        <header>
+            <br>
+            <div id="btnLogin"><a id="login" href="Autenticacion.html">Login</a></div>
+            <br></br>
+            <img id=logo src="img/TicoRides.png">
+            <h1 id=titulo> Welcome to TicoRides.com</h1>
+        </header>
+        <p id="Search">Search for a ride</p>
+        <div class="cuadro">
+                <label id="from">From</label>
+                <input id=aut type="text" placeholder="Input Text">
+                <label id="to">To</label>
+                <input id=aut2 type="text" placeholder="Input Text">
+            <input id="find" type="submit" value="Find my Ride">
+        </div>
+        <p id="results">Results for Rides that matches your criteria:</p>
+        <table id="ridesTable" class="Tabla">
+            <tr>
+                <td>Name</td>
+                <td>Start</td>
+                <td>End</td>
+                <td>Actions</td>
+            </tr>
+        </table>
+    </div>
+</body>
+<script src="js/Publico.js" type="text/javascript"></script>
+</html>
